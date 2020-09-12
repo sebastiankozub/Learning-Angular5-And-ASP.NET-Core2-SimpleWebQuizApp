@@ -1,0 +1,16 @@
+<div *ngIf="quiz" class="quiz">
+
+  <h2>{{quiz.title}}</h2>
+
+  <ul>
+    <li>
+      <label>Tytuł:</label>
+      <input [(ngModel)]="quiz.Title" placeholder="Wstaw tytuł..." />
+    </li>
+    <li>
+      <label>Opis:</label>
+      <textarea [(ngModel)]="quiz.Description" placeholder="Wstaw opis..." ></textarea>
+    </li>
+  </ul>
+
+</div>

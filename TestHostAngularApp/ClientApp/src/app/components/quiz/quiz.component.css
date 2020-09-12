@@ -1,0 +1,13 @@
+.quiz {
+  margin: 5px;
+  padding: 5px 10px;
+  border: 1px solid black;
+}
+
+.quiz * {
+  vertical-align: middle;
+}
+
+.quiz ul li {
+  padding: 5px 0;
+}
